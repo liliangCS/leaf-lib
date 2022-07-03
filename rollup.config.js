@@ -6,7 +6,7 @@ export default {
   input: "./src/index.js",
   output: [
     {
-      file: "modules/leaf.es.js",
+      file: "modules/leaf.esm.js",
       format: "es"
     },
     {
@@ -17,15 +17,6 @@ export default {
       file: "modules/leaf.umd.js",
       format: "umd",
       name: "leaf"
-    },
-    {
-      file: "modules/leaf.browser.js",
-      format: "iife",
-      name: "leaf"
-    },
-    {
-      file: "modules/leaf.amd.js",
-      format: "amd"
     }
   ],
   plugins: [

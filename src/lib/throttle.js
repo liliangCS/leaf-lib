@@ -1,7 +1,7 @@
 /**
  * 输入一个普通函数，得到一个节流函数
  * @param {Function} fn 
- * @param {Number} delay 
+ * @param {number} delay 
  * @return {Function}
  * @example
  * 

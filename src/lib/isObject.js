@@ -1,7 +1,7 @@
 /**
  * 判断值是否为对象类型
  * @param {*} value
- * @return {Boolean}
+ * @return {boolean}
  * @example
  * 
  * isObject(null)  => false
