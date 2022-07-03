@@ -1,5 +1,6 @@
 import { terser } from "rollup-plugin-terser"
 import { babel } from "@rollup/plugin-babel"
+import commonjs from "@rollup/plugin-commonjs"
 
 export default {
   input: "./src/index.js",
@@ -28,7 +29,8 @@ export default {
     }
   ],
   plugins: [
-    terser(),
-    babel({ babelHelpers: "bundled" })
+    commonjs(),
+    babel({ babelHelpers: "bundled" }),
+    terser()
   ]
 }
