@@ -29,5 +29,6 @@ const { debounce, throttle } = require("leaf-lib")
 - `debounce(fn: Function, delay: number): Function`
 - `findMaxValue(arr: number[]): number`
 - `findMinValue(arr: number[]): number`
+- `getVariableType(value: any): string`
 - `isObject(value: any): boolean`
 - `throttle(fn: Function, delay: number): Function`

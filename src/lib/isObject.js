@@ -5,9 +5,7 @@
  * @example
  * 
  * isObject(null)  => false
- * 
  * isObject(new Function) => true
- * 
  * isObject(new Array) => true
  */
 function isObject(value) {
