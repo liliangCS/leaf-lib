@@ -14,7 +14,7 @@ export default {
       format: "cjs"
     },
     {
-      file: "modules/leaf.umd.js",
+      file: "leaf.min.js",
       format: "umd",
       name: "leaf"
     }

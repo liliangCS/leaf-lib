@@ -4,6 +4,7 @@ import throttle from "./lib/throttle"
 import findMaxValue from "./lib/findMaxValue"
 import findMinValue from "./lib/findMinValue"
 import getVariableType from "./lib/getVariableType"
+import deepClone from "./lib/deepClone"
 
 export {
   isObject,
@@ -11,5 +12,6 @@ export {
   throttle,
   findMaxValue,
   findMinValue,
-  getVariableType
+  getVariableType,
+  deepClone
 }

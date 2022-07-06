@@ -27,6 +27,7 @@ const { debounce, throttle } = require("leaf-lib")
 ## 方法列表
 
 - `debounce(fn: Function, delay: number): Function`
+- `deepClone(value: any): any`
 - `findMaxValue(arr: number[]): number`
 - `findMinValue(arr: number[]): number`
 - `getVariableType(value: any): string`
