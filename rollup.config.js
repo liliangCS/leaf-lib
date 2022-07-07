@@ -15,7 +15,7 @@ export default {
     },
     {
       file: "leaf.min.js",
-      format: "umd",
+      format: "iife",
       name: "leaf"
     }
   ],
