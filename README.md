@@ -53,6 +53,8 @@ const { debounce } = require("leaf-lib")
 - `deepClone(value: any): any`
 - `findMaxValue(arr: number[]): number`
 - `findMinValue(arr: number[]): number`
+- `getTimeInfo(timestamp: number | string): Object`
 - `getVariableType(value: any): string`
+- `initPromiseFunc(fn: Function): Function`
 - `isObject(value: any): boolean`
 - `throttle(fn: Function, delay: number): Function`
