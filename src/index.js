@@ -7,6 +7,8 @@ import getVariableType from "./lib/getVariableType"
 import deepClone from "./lib/deepClone"
 import initPromiseFunc from "./lib/initPromiseFunc"
 import getTimeInfo from "./lib/getTimeInfo"
+import queryStringify from "./lib/queryStringify"
+import queryParse from "./lib/queryParse"
 
 export {
   isObject,
@@ -17,5 +19,7 @@ export {
   getVariableType,
   deepClone,
   initPromiseFunc,
-  getTimeInfo
+  getTimeInfo,
+  queryStringify,
+  queryParse
 }

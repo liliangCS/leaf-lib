@@ -57,4 +57,6 @@ const { debounce } = require("leaf-lib")
 - `getVariableType(value: any): string`
 - `initPromiseFunc(fn: Function): Function`
 - `isObject(value: any): boolean`
+- `queryParse(value: string): Object`
+- `queryStringify(value: Object): string`
 - `throttle(fn: Function, delay: number): Function`

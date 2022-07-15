@@ -9,7 +9,7 @@
 function findMinValue(arr) {
   arr.map(item => {
     if (typeof item !== 'number') {
-      throw new Error('Parameter is not a number array')
+      throw new TypeError('Parameter is not a number array')
     }
   })
   return Math.min(...arr)
