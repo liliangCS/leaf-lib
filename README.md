@@ -59,4 +59,5 @@ const { debounce } = require("leaf-lib")
 - `isObject(value: any): boolean`
 - `queryParse(value: string): Object`
 - `queryStringify(value: Object): string`
+- `random(...args: number[]): number`
 - `throttle(fn: Function, delay: number): Function`

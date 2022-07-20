@@ -9,6 +9,7 @@ import initPromiseFunc from "./lib/initPromiseFunc"
 import getTimeInfo from "./lib/getTimeInfo"
 import queryStringify from "./lib/queryStringify"
 import queryParse from "./lib/queryParse"
+import random from "./lib/random"
 
 export {
   isObject,
@@ -21,5 +22,6 @@ export {
   initPromiseFunc,
   getTimeInfo,
   queryStringify,
-  queryParse
+  queryParse,
+  random
 }
