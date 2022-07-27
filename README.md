@@ -61,3 +61,22 @@ const { debounce } = require("leaf-lib")
 - `queryStringify(value: Object): string`
 - `random(...args: number[]): number`
 - `throttle(fn: Function, delay: number): Function`
+
+## 使用eventBus
+```javascript
+import { eventBus } from "leaf-lib"
+
+// 监听事件
+eventBus.on("test", (data) => {
+  console.log(`这是一次${data}`)
+})
+
+// 触发事件
+eventBus.emit("test", "测试")
+
+// 取消单个事件的监听
+eventBus.off("test")
+
+// 取消所有事件的监听
+eventBus.clear()
+```

@@ -1,3 +1,4 @@
+// 方法类
 import isObject from "./lib/isObject"
 import debounce from "./lib/debounce"
 import throttle from "./lib/throttle"
@@ -10,6 +11,8 @@ import getTimeInfo from "./lib/getTimeInfo"
 import queryStringify from "./lib/queryStringify"
 import queryParse from "./lib/queryParse"
 import random from "./lib/random"
+// 工具类
+import eventBus from "./event"
 
 export {
   isObject,
@@ -23,5 +26,6 @@ export {
   getTimeInfo,
   queryStringify,
   queryParse,
-  random
+  random,
+  eventBus
 }
