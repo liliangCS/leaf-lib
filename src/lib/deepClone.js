@@ -15,6 +15,7 @@ import _cloneSymbol from "../au-lib/_cloneSymbol"
  */
 function deepClone(value) {
   const clone = (value, map) => {
+    // 引用数据类型
     if (isObject(value)) {
       // 初始化值
       let res = _initRes(value)
@@ -24,7 +25,7 @@ function deepClone(value) {
       // 类型为Map
       if (getVariableType(value) === "Map") {
         value.forEach((item, index) => {
-          res.set(index, clone(item, map))
+          res.set(clone(index, map), clone(item, map))
         })
         return res
       }
@@ -56,7 +57,9 @@ function deepClone(value) {
       else if (getVariableType(value) === "Function") {
         return value
       }
-    } else {
+    }
+    // 简单数据类型
+    else {
       // 类型为Symbol
       if (getVariableType(value) === "Symbol") {
         return _cloneSymbol(value)
