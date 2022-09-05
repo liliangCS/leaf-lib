@@ -12,6 +12,11 @@ function remAdapter(divide = 100) {
   }
   setRemUnit()
   window.addEventListener("resize", setRemUnit)
+  window.addEventListener('pageshow', function(e) {
+    if (e.persisted) {
+      setRemUnit()
+    }
+  })
 }
 
 export default remAdapter
