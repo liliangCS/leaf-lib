@@ -13,6 +13,8 @@ import queryParse from "./lib/queryParse"
 import random from "./lib/random"
 // 工具类
 import eventBus from "./event"
+// 屏幕适配
+import remAdapter from "./layout/remAdapter"
 
 export {
   isObject,
@@ -27,5 +29,6 @@ export {
   queryStringify,
   queryParse,
   random,
-  eventBus
+  eventBus,
+  remAdapter
 }

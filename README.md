@@ -80,3 +80,11 @@ eventBus.off("test")
 // 取消所有事件的监听
 eventBus.clear()
 ```
+
+## 移动端适配(rem)
+```javascript
+import { remAdapter } from "leaf-lib"
+// 接收一个number类型参数(divide)
+// 不传默认为100，即代表1rem等于1/100屏幕宽度
+remAdapter()
+```
