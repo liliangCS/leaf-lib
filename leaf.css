@@ -1,0 +1,36 @@
+/*
+  关于这个文件的说明：
+    此文件一个是样式类的集合，
+    您可能会好奇为什么类名前面都会加一个leaf，
+    那是因为我希望能够尽量避免您在使用的过程中出现类名冲突的情况，
+    您可以使用此文件里面的任何您需要的css类，
+    在使用之前，您需要去全局引入这个css文件，
+    如果您的项目足够复杂，
+    那么不建议您引入这个css文件，
+    但是您可以借鉴这个文件里面的样式来完成需求。
+*/
+
+/* -------------------文本类--------------------- */
+
+/* 一行文本省略 */
+.leaf-text-ellipsis-one {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 两行文本省略 (注意:如果盒子定义了高度可能会出现问题)*/
+.leaf-text-ellipsis-two {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 三行文本省略 (注意:如果盒子定义了高度可能会出现问题)*/
+.leaf-text-ellipsis-three {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
