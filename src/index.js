@@ -12,6 +12,7 @@ import queryStringify from "./lib/queryStringify"
 import queryParse from "./lib/queryParse"
 import random from "./lib/random"
 import classes from "./lib/classes"
+import styleStrToObject from "./lib/styleStrToObject"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -31,6 +32,7 @@ export {
   queryParse,
   random,
   classes,
+  styleStrToObject,
   eventBus,
   remAdapter
 }

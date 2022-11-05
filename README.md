@@ -61,6 +61,7 @@ const { debounce } = require("leaf-lib")
 - `queryParse(value: string): Object`
 - `queryStringify(value: Object): string`
 - `random(...args: number[]): number`
+- `styleStrToObject(styleStr: string): Object`
 - `throttle(fn: Function, delay: number): Function`
 
 ## 使用eventBus
