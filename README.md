@@ -57,6 +57,7 @@ const { debounce } = require("leaf-lib")
 - `getTimeInfo(timestamp: number | string): Object`
 - `getVariableType(value: any): string`
 - `initPromiseFunc(fn: Function): Function`
+- `isEmptyObject(value: Object): boolean`
 - `isObject(value: any): boolean`
 - `queryParse(value: string): Object`
 - `queryStringify(value: Object): string`

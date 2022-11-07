@@ -13,6 +13,7 @@ import queryParse from "./lib/queryParse"
 import random from "./lib/random"
 import classes from "./lib/classes"
 import styleStrToObject from "./lib/styleStrToObject"
+import isEmptyObject from "./lib/isEmptyObject"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -33,6 +34,9 @@ export {
   random,
   classes,
   styleStrToObject,
+  isEmptyObject,
+
   eventBus,
+  
   remAdapter
 }
