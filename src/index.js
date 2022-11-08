@@ -14,6 +14,7 @@ import random from "./lib/random"
 import classes from "./lib/classes"
 import styleStrToObject from "./lib/styleStrToObject"
 import isEmptyObject from "./lib/isEmptyObject"
+import uid from "./lib/uid"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -35,6 +36,7 @@ export {
   classes,
   styleStrToObject,
   isEmptyObject,
+  uid,
 
   eventBus,
   
