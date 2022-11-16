@@ -15,6 +15,7 @@ import classes from "./lib/classes"
 import styleStrToObject from "./lib/styleStrToObject"
 import isEmptyObject from "./lib/isEmptyObject"
 import uid from "./lib/uid"
+import copyText from "./lib/copyText"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -37,6 +38,7 @@ export {
   styleStrToObject,
   isEmptyObject,
   uid,
+  copyText,
 
   eventBus,
   
