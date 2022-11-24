@@ -16,6 +16,7 @@ import styleStrToObject from "./lib/styleStrToObject"
 import isEmptyObject from "./lib/isEmptyObject"
 import uid from "./lib/uid"
 import copyText from "./lib/copyText"
+import imageCompress from "./lib/imageCompress"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -39,6 +40,7 @@ export {
   isEmptyObject,
   uid,
   copyText,
+  imageCompress,
 
   eventBus,
   

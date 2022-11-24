@@ -57,6 +57,7 @@ const { debounce } = require("leaf-lib")
 - `findMinValue(arr: number[]): number`
 - `getTimeInfo(timestamp: number | string): Object`
 - `getVariableType(value: any): string`
+- `imageCompress(file: Object, config: Object): string | Object`
 - `initPromiseFunc(fn: Function): Function`
 - `isEmptyObject(value: Object): boolean`
 - `isObject(value: any): boolean`
