@@ -17,6 +17,7 @@ import isEmptyObject from "./lib/isEmptyObject"
 import uid from "./lib/uid"
 import copyText from "./lib/copyText"
 import imageCompress from "./lib/imageCompress"
+import cleanData from "./lib/cleanData"
 // 工具类
 import eventBus from "./event"
 // 屏幕适配
@@ -41,6 +42,7 @@ export {
   uid,
   copyText,
   imageCompress,
+  cleanData,
 
   eventBus,
   

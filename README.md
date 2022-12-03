@@ -50,6 +50,7 @@ const { debounce } = require("leaf-lib")
 ## 方法列表
 
 - `classes(...args: Array<Object | string>): string`
+- `cleanData(data: Object, dataFormat: Array): Object`
 - `copyText(text: string): promise`
 - `debounce(fn: Function, delay: number): Function`
 - `deepClone(value: any): any`
