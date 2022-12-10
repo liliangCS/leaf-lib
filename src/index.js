@@ -21,7 +21,8 @@ import uid from "./lib/uid"
 import copyText from "./lib/copyText"
 import imageCompress from "./lib/imageCompress"
 import cleanData from "./lib/cleanData"
-import calcMemory from "./lib/calcMemory"
+import memoryCalc from "./lib/memoryCalc"
+import memoryFormat from "./lib/memoryFormat"
 // 工具类别
 import eventBus from "./event"
 // 屏幕适配
@@ -48,7 +49,8 @@ export {
   copyText,
   imageCompress,
   cleanData,
-  calcMemory,
+  memoryCalc,
+  memoryFormat,
 
   eventBus,
   

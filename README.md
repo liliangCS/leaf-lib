@@ -49,7 +49,6 @@ const { debounce } = require("leaf-lib")
 
 ## 方法列表
 
-- `calcMemory(size: Number, unit: String, targetUnit: String): String`
 - `classes(...args: Array<Object | String>): String`
 - `cleanData(data: Object, dataFormat: Array): Object`
 - `copyText(text: String): Promise`
@@ -63,6 +62,8 @@ const { debounce } = require("leaf-lib")
 - `initPromiseFunc(fn: Function): Function`
 - `isEmptyObject(value: Object): Boolean`
 - `isObject(value: Any): Boolean`
+- `memoryCalc(size: Number, unit: String, targetUnit: String): String`
+- `memoryFormat(size: Number, unit: String): String`
 - `queryParse(value: String): Object`
 - `queryStringify(value: Object): String`
 - `random(...args: Number[]): Number`

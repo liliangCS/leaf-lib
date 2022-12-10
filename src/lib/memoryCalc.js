@@ -6,10 +6,10 @@
  * @return {Number}
  * 
  * @example
- * const res = calcMemory(8, "b", "B")
+ * const res = memoryCalc(8, "b", "B")
  * console.log(res)  ==>  1
  */
-function calcMemory(size, unit, targetUnit) {
+function memoryCalc(size, unit, targetUnit) {
   const rule = {
     b: 1,
     B: 8,
@@ -29,4 +29,4 @@ function calcMemory(size, unit, targetUnit) {
   return res
 }
 
-export default calcMemory
+export default memoryCalc
