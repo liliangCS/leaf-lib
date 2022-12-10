@@ -1,7 +1,7 @@
 /**
  * 输入一个值，得到它的类型
  * @param {*} value 
- * @return {string}
+ * @return {String}
  * @example
  * 
  * console.log(getVariableType(1))  =>  Number

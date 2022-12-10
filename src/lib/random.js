@@ -1,7 +1,7 @@
 /**
  * 输入一个区间，得到这个区间的随机值
- * @param  {number, number?} args
- * @return {number}
+ * @param  {Number, Number?} args
+ * @return {Number}
  * @example
  * 
  * const res1 = random(10, 20)  =>  10 <= res1 < 20

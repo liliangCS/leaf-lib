@@ -1,4 +1,7 @@
-// 方法类
+// 版本
+import { version } from "../package.json"
+
+// 方法类别
 import isObject from "./lib/isObject"
 import debounce from "./lib/debounce"
 import throttle from "./lib/throttle"
@@ -18,12 +21,14 @@ import uid from "./lib/uid"
 import copyText from "./lib/copyText"
 import imageCompress from "./lib/imageCompress"
 import cleanData from "./lib/cleanData"
-// 工具类
+import calcMemory from "./lib/calcMemory"
+// 工具类别
 import eventBus from "./event"
 // 屏幕适配
 import remAdapter from "./layout/remAdapter"
 
 export {
+  version,
   isObject,
   debounce,
   throttle,
@@ -43,6 +48,7 @@ export {
   copyText,
   imageCompress,
   cleanData,
+  calcMemory,
 
   eventBus,
   

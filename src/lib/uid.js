@@ -1,6 +1,6 @@
 /**
  * id生成函数
- * @return {string}
+ * @return {String}
  */
 function uid() {
   let uidStr = ""

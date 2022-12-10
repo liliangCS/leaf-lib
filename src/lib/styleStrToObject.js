@@ -1,6 +1,6 @@
 /**
  * 
- * @param {string} styleStr 
+ * @param {String} styleStr 
  * @return {Object}
  * @example
  * 

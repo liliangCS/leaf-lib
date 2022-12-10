@@ -3,7 +3,7 @@ import isObject from "./isObject"
 /**
  * 输入一个对象，得到一个query查询字符串
  * @param {Object} value 
- * @return {string}
+ * @return {String}
  * @example
  * 
  * const queryStr = queryStringify({ question: "花儿为什么这么红", timestamp: 1657880717778 })

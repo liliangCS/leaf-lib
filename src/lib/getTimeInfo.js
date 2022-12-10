@@ -1,6 +1,6 @@
 /**
  * 传入一个时间戳（支持秒或毫秒为单位），得到一个包含时间信息的对象
- * @param {number | string} timestamp
+ * @param {Number | String} timestamp
  * @return {Object}
  * @example
  * 

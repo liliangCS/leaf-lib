@@ -2,8 +2,8 @@ import getVariableType from "./getVariableType"
 
 /**
  * 接收字符串或者对象作为参数，得到一个字符串
- * @param  {...args: Array<Object | string>} args 
- * @returns {string}
+ * @param  {...args: Array<Object | String>} args 
+ * @returns {String}
  * @example
  * 
  * classes({title: 1 > 0}, "name")  =>  "title name"

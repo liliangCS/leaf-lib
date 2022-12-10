@@ -5,8 +5,8 @@ import _cloneSymbol from "../au-lib/_cloneSymbol"
 
 /**
  * 输入一个值，得到它的深拷贝
- * @param {any} value
- * @return {any}
+ * @param {Any} value
+ * @return {Any}
  * @example
  * 
  * const p1 = { name: 'tom', age: 18, firend: { name: 'john', age: 20 } }

@@ -1,7 +1,7 @@
 /**
  * 输入一个number数组，得到一个数组子项最小值
- * @param {number[]} arr
- * @return {number}
+ * @param {Number[]} arr
+ * @return {Number}
  * @example
  * 
  * findMinValue([1, 2, 3, 4]) => 1

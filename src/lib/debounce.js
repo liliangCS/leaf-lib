@@ -1,7 +1,7 @@
 /**
  * 输入一个普通函数，得到一个防抖函数
  * @param {Function} fn
- * @param {number} delay
+ * @param {Number} delay
  * @return {Function}
  * @example
  * 

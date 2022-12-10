@@ -1,6 +1,6 @@
 /**
  * 复制文本
- * @param {string} text 
+ * @param {String} text 
  * @return { Promise }
  */
 

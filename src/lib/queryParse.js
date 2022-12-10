@@ -2,7 +2,7 @@ import getVariableType from "./getVariableType"
 
 /**
  * 输入一个query查询字符串，得到一个对应的对象
- * @param {string} value 
+ * @param {String} value 
  * @return {Object}
  * @example
  * 
