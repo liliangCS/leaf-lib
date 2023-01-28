@@ -5,10 +5,10 @@ import _cloneSymbol from "../au-lib/_cloneSymbol"
 
 /**
  * 输入一个值，得到它的深拷贝
- * @param {Any} value
- * @return {Any}
+ * @param {any} value
+ * @return {any}
  * @example
- * 
+ *
  * const p1 = { name: 'tom', age: 18, firend: { name: 'john', age: 20 } }
  * const p2 = deepClone(p1)
  * console.log(p1.firend === p2.firend)  =>  false
@@ -31,13 +31,16 @@ function deepClone(value) {
       }
       // 类型为Set
       else if (getVariableType(value) === "Set") {
-        value.forEach(item => {
+        value.forEach((item) => {
           res.add(clone(item, map))
         })
         return res
       }
       // 类型为对象或者数组
-      else if (getVariableType(value) === "Object" || getVariableType(value) === "Array") {
+      else if (
+        getVariableType(value) === "Object" ||
+        getVariableType(value) === "Array"
+      ) {
         for (const key in value) {
           if (value.hasOwnProperty(key)) {
             res[key] = clone(value[key], map)

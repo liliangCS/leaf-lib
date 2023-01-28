@@ -1,10 +1,10 @@
 /**
  * 内存换算
- * @param {Number} size 
- * @param {String} unit 
- * @param {String} targetUnit 
- * @return {Number}
- * 
+ * @param {number} size
+ * @param {string} unit
+ * @param {string} targetUnit
+ * @return {number}
+ *
  * @example
  * const res = memoryCalc(8, "b", "B")
  * console.log(res)  ==>  1
@@ -25,7 +25,7 @@ function memoryCalc(size, unit, targetUnit) {
   if (!units.includes(unit)) {
     throw new Error("Unit Only 'b','B','KB','MB','GB' are supported.")
   }
-  const res = size * rule[unit] / rule[targetUnit]
+  const res = (size * rule[unit]) / rule[targetUnit]
   return res
 }
 

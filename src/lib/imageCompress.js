@@ -6,9 +6,9 @@
 
 /**
  * 图片压缩
- * @param {Object} file 
- * @param {Object} config 
- * @return { Object | String }
+ * @param {Object} file
+ * @param {Object} config
+ * @return { Object | string }
  */
 
 function imageCompress(file, config = {}) {
@@ -20,10 +20,8 @@ function imageCompress(file, config = {}) {
   const imgObj = new Image()
 
   return new Promise((resolve, reject) => {
-
     // 监听图片加载过程
     imgObj.addEventListener("load", () => {
-
       // 计算原始图像的宽高比
       const originImageRatio = imgObj.width / imgObj.height
       let targetImageWidth = imgObj.width
@@ -59,9 +57,13 @@ function imageCompress(file, config = {}) {
 
       // 输出不同类型数据
       if (config.dataType === "blob") {
-        canvasEl.toBlob((blob) => {
-          resolve(blob)
-        }, fileType, config.quality || 0.6)
+        canvasEl.toBlob(
+          (blob) => {
+            resolve(blob)
+          },
+          fileType,
+          config.quality || 0.6
+        )
       } else {
         const base64 = canvasEl.toDataURL(fileType, config.quality || 0.6)
         resolve(base64)

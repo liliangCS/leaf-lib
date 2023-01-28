@@ -18,11 +18,12 @@
  */
 function cleanData(data, dataFormat) {
   const targetData = {}
-  for(const key of dataFormat) {
+  for (const key of dataFormat) {
     if (Object.prototype.toString.call(key) === "[object String]") {
       targetData[key] = data[key] ?? null
     } else {
-      targetData[key[0]] = data[key[0]] === undefined ? null : cleanData(data[key[0]], key[1])
+      targetData[key[0]] =
+        data[key[0]] === undefined ? null : cleanData(data[key[0]], key[1])
     }
   }
   return targetData

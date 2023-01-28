@@ -1,9 +1,9 @@
 /**
  * 输入一个值，得到它的类型
- * @param {*} value 
- * @return {String}
+ * @param {*} value
+ * @return {string}
  * @example
- * 
+ *
  * console.log(getVariableType(1))  =>  Number
  * console.log(getVariableType('1'))  =>  String
  * console.log(getVariableType(true))  =>  Boolean

@@ -49,27 +49,27 @@ const { debounce } = require("leaf-lib")
 
 ## 方法列表
 
-- `classes(...args: Array<Object | String>): String`
+- `classes(...args: Array<Object | string>): String`
 - `cleanData(data: Object, dataFormat: Array): Object`
-- `copyText(text: String): Promise`
-- `debounce(fn: Function, delay: Number): Function`
-- `deepClone(value: Any): Any`
-- `findMaxValue(arr: Number[]): Number`
-- `findMinValue(arr: Number[]): Number`
-- `getTimeInfo(timestamp: Number | String): Object`
-- `getVariableType(value: Any): String`
-- `imageCompress(file: Object, config: Object): String | Object`
+- `copyText(text: string): Promise`
+- `debounce(fn: Function, delay: number): Function`
+- `deepClone(value: any): any`
+- `findMaxValue(arr: number[]): number`
+- `findMinValue(arr: number[]): number`
+- `getTimeInfo(timestamp: number | string): Object`
+- `getVariableType(value: any): string`
+- `imageCompress(file: Object, config: Object): string | Object`
 - `initPromiseFunc(fn: Function): Function`
-- `isEmptyObject(value: Object): Boolean`
-- `isObject(value: Any): Boolean`
-- `memoryCalc(size: Number, unit: String, targetUnit: String): String`
-- `memoryFormat(size: Number, unit: String): String`
-- `queryParse(value: String): Object`
-- `queryStringify(value: Object): String`
-- `random(...args: Number[]): Number`
-- `styleStrToObject(styleStr: String): Object`
-- `throttle(fn: Function, delay: Number): Function`
-- `uid(): String`
+- `isEmptyObject(value: Object): boolean`
+- `isObject(value: any): boolean`
+- `memoryCalc(size: number, unit: string, targetUnit: string): string`
+- `memoryFormat(size: number, unit: string): string`
+- `queryParse(value: string): Object`
+- `queryStringify(value: Object): string`
+- `random(...args: number[]): number`
+- `styleStrToObject(styleStr: string): Object`
+- `throttle(fn: Function, delay: number): Function`
+- `uid(): string`
 
 ## 使用eventBus
 ```javascript

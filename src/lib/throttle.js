@@ -1,10 +1,10 @@
 /**
  * 输入一个普通函数，得到一个节流函数
- * @param {Function} fn 
- * @param {Number} delay 
+ * @param {Function} fn
+ * @param {number} delay
  * @return {Function}
  * @example
- * 
+ *
  * function sayHello() { console.log("Hello World") }
  * const newSayHello = throttle(sayHello, 1000)
  */

@@ -6,13 +6,22 @@
   "scripts": {
     "build": "rollup --config"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  },
   "author": "liliangCS",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.18.6",
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-commonjs": "^22.0.1",
     "@rollup/plugin-json": "^5.0.2",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1",
     "rollup": "^2.75.7",
     "rollup-plugin-terser": "^7.0.2"
   },
