@@ -24,6 +24,7 @@ import cleanData from "./lib/cleanData"
 import memoryCalc from "./lib/memoryCalc"
 import memoryFormat from "./lib/memoryFormat"
 import isLeapYear from "./lib/isLeadYear"
+import calcDaysByMonth from "./lib/calcDaysByMonth"
 // 工具类别
 import eventBus from "./event"
 // 屏幕适配
@@ -53,6 +54,7 @@ export {
   memoryCalc,
   memoryFormat,
   isLeapYear,
+  calcDaysByMonth,
   eventBus,
   remAdapter
 }

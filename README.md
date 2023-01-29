@@ -1,35 +1,38 @@
 # leaf-lib
 
-一个轻量级的javascript库。
+一个轻量级的 javascript 库。
 
 ## 安装
 
 ```markdown
 # npm
+
 npm install leaf-lib
+
 # yarn
+
 yarn add leaf-lib
 ```
 
 ## 快速上手
 
-在你的html文件中通过script标签引入项目根目录下的leaf.min.js文件，这时全局会暴露一个leaf对象。
+在你的 html 文件中通过 script 标签引入项目根目录下的 leaf.min.js 文件，这时全局会暴露一个 leaf 对象。
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script src="./leaf.min.js"></script>
-</head>
-<body>
-  <script>
-    console.log(leaf)
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./leaf.min.js"></script>
+  </head>
+  <body>
+    <script>
+      console.log(leaf)
+    </script>
+  </body>
 </html>
 ```
 
@@ -49,7 +52,8 @@ const { debounce } = require("leaf-lib")
 
 ## 方法列表
 
-- `classes(...args: Array<Object | string>): String`
+- `calcDaysByMonth(year: number, month: number): number`
+- `classes(...args: Array<Object | string>): string`
 - `cleanData(data: Object, dataFormat: Array): Object`
 - `copyText(text: string): Promise`
 - `debounce(fn: Function, delay: number): Function`
@@ -71,7 +75,8 @@ const { debounce } = require("leaf-lib")
 - `throttle(fn: Function, delay: number): Function`
 - `uid(): string`
 
-## 使用eventBus
+## 使用 eventBus
+
 ```javascript
 import { eventBus } from "leaf-lib"
 
@@ -91,6 +96,7 @@ eventBus.clear()
 ```
 
 ## 移动端适配(rem)
+
 ```javascript
 import { remAdapter } from "leaf-lib"
 // 接收一个number类型参数(divide)
