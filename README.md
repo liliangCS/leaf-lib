@@ -60,6 +60,7 @@ const { debounce } = require("leaf-lib")
 - `deepClone(value: any): any`
 - `findMaxValue(arr: number[]): number`
 - `findMinValue(arr: number[]): number`
+- `getNowTime(type: "datetime" | "date" | "month" | "year"): Object`
 - `getTimeInfo(timestamp: number | string): Object`
 - `getVariableType(value: any): string`
 - `imageCompress(file: Object, config: Object): string | Object`

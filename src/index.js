@@ -25,6 +25,7 @@ import memoryCalc from "./lib/memoryCalc"
 import memoryFormat from "./lib/memoryFormat"
 import isLeapYear from "./lib/isLeadYear"
 import calcDaysByMonth from "./lib/calcDaysByMonth"
+import getNowTime from "./lib/getNowTime"
 // 工具类别
 import eventBus from "./event"
 // 屏幕适配
@@ -55,6 +56,7 @@ export {
   memoryFormat,
   isLeapYear,
   calcDaysByMonth,
+  getNowTime,
   eventBus,
   remAdapter
 }
