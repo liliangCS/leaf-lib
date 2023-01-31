@@ -53,6 +53,7 @@ const { debounce } = require("leaf-lib")
 ## 方法列表
 
 - `calcDaysByMonth(year: number, month: number): number`
+- `calcRangeDate(startDate: {year: number, month: number, date: number}, endDate: {year: number, month: number, date: number}): Array<{year: number, month: number, date: number}>`
 - `classes(...args: Array<Object | string>): string`
 - `cleanData(data: Object, dataFormat: Array): Object`
 - `copyText(text: string): Promise`

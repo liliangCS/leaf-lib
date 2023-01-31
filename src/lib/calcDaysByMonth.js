@@ -2,7 +2,7 @@
  * 计算某年某月的天数
  * @param {number} year
  * @param {number} month
- * @returns
+ * @returns {number}
  */
 const calcDaysByMonth = (year, month) => {
   let days = 31
