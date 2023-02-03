@@ -1,6 +1,6 @@
 {
   "name": "leaf-lib",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "a small in size javascript library",
   "main": "./modules/leaf.esm.js",
   "scripts": {
@@ -11,6 +11,12 @@
       "path": "node_modules/cz-customizable"
     }
   },
+  "files": [
+    "modules/*",
+    "leaf.css",
+    "package.json",
+    "README.md"
+  ],
   "author": "liliangCS",
   "license": "MIT",
   "devDependencies": {
