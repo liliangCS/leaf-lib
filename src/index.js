@@ -27,6 +27,7 @@ import isLeapYear from "./lib/isLeadYear"
 import calcDaysByMonth from "./lib/calcDaysByMonth"
 import getNowTime from "./lib/getNowTime"
 import calcRangeDate from "./lib/calcRangeDate"
+import kebab2Pascal from "./lib/kebab2Pascal"
 // 工具类别
 import eventBus from "./event"
 // 屏幕适配
@@ -59,6 +60,7 @@ export {
   calcDaysByMonth,
   getNowTime,
   calcRangeDate,
+  kebab2Pascal,
   eventBus,
   remAdapter
 }

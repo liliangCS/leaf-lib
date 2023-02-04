@@ -68,6 +68,7 @@ const { debounce } = require("leaf-lib")
 - `initPromiseFunc(fn: Function): Function`
 - `isEmptyObject(value: Object): boolean`
 - `isObject(value: any): boolean`
+- `kebab2Pascal(text: string): string`
 - `memoryCalc(size: number, unit: string, targetUnit: string): string`
 - `memoryFormat(size: number, unit: string): string`
 - `queryParse(value: string): Object`
