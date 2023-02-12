@@ -1,6 +1,6 @@
 {
   "name": "leaf-lib",
-  "version": "1.4.8",
+  "version": "1.4.9",
   "description": "a small in size javascript library",
   "main": "./modules/leaf.cjs.js",
   "module": "./modules/leaf.esm.js",
@@ -13,6 +13,7 @@
     }
   },
   "files": [
+    "src/*",
     "modules/*",
     "leaf.css",
     "package.json",
